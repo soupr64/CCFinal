@@ -48,8 +48,8 @@ function preload(){
   backimg = loadImage('assets/back1.png')
   backimg1 = loadImage('assets/back2.png')
   bg = loadImage('assets/gamebg.png')
-  font = loadFont('assets/PressStart2P-Regular.tff')
-  ballgif1 = loadImage('assets/ballgif.gif');
+  font = loadFont('assets/RetroGaming.ttf');
+   ballgif1 = loadImage('assets/ballgif.gif');
   ballgif2 = loadImage('assets/ballgif2.gif');
   startGame = loadSound("assets/startgame.mp3");
   playerDeath = loadSound("assets/gameend.mp3");
