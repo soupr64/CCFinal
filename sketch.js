@@ -80,7 +80,7 @@ function timeCount() {
 function resetGame() {
   spheresSorted = 0;
   spheres = [];
-  
+
 
   // create new spheres for the next wave
   for (let i = 0; i < genNum; i++) {
@@ -618,6 +618,7 @@ function sceneSwitch() {
       mainMenu();
       if (keyCode === 32 && scene === 0) {
          startGame.play();
+         waveNumber = 1;
         scene = 1;
         score = 0;
         spheresSorted = 0;
